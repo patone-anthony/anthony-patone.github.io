@@ -5,6 +5,7 @@
   border: 0;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
   overflow: auto;
@@ -131,10 +132,12 @@ body {
 }
 
 .s1 .home-image {
+
+  background-image: url("/img/nyc.jpg");
   background: linear-gradient(
                      rgba(20,20,20, .7), 
                      rgba(20,20,20, .7)),
-                     url("img/nyc.jpg");
+                     url("/img/nyc.jpg");
   
   width: 100vw;
   height: 97vh;
@@ -201,13 +204,13 @@ background: rgb(2, 116,	120, .9);
 
 /* Page 2 */
 .s2 {
-    width: 100vw;
+    width: auto;
     height: 97vh;
   }
 
   #s2-1 {
     width: 100vw;
-    height: 35%;
+    height: auto;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
@@ -218,6 +221,7 @@ background: rgb(2, 116,	120, .9);
 .s2-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  height: auto;
 }
 
   #s2-1-1 {
@@ -261,20 +265,17 @@ background: rgb(2, 116,	120, .9);
 
   #s2-2 {
     width: 100vw;
-    height: 43%;
+    height: auto;
     background: #f7f6f6;
     font-size: 1.2rem;
-    /* padding-left: 1rem; */
     padding-right: 2rem;
   }
 
 #s2-2 h1 {
   color: var(--secondary-color);
-  margin: 1rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 #s2-2-1 {
@@ -285,6 +286,7 @@ background: rgb(2, 116,	120, .9);
 
   #s2-2-2 {
     margin-left: 1rem;
+    padding: 1rem;
 }
 
 .lang-container {
@@ -312,7 +314,6 @@ background: rgb(2, 116,	120, .9);
     background: lightgray;
     height: 30px;
     border-radius: 5px;
-    /* opacity: .5; */
     display: flex;
     align-items: center;
     margin-left: 1rem;
@@ -326,7 +327,7 @@ background: rgb(2, 116,	120, .9);
 
   #s2-3 {
     width: 100vw;
-    height: 15%;
+    height: auto;
   }
 
   #s2-3 h1 {
@@ -341,9 +342,11 @@ background: rgb(2, 116,	120, .9);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
-  height: 100%;
+  height: auto;
   align-items: center;
   justify-items: center;
+  padding: 1rem;
+  padding-bottom: 0rem;
 }
 
 .logos img {
@@ -392,15 +395,16 @@ background: rgb(2, 116,	120, .9);
   /* section 3 */
 .s3 {
   width: 100vw;
-  height: 97vh;
+  height: auto;
   background: var(--primary-color);
   display: block;
   padding-top: 8rem;
   position: relative;
+  padding-bottom: 12rem;
 }
 
 .s3-1 {
-  height: 25%;
+  height: auto;
   background: rgb(2, 155, 160); 
   margin-bottom: 2rem;
   max-width: 80%;
@@ -555,7 +559,7 @@ color: white;
   width: 100%;
   height: 10%;
   position: absolute;
-  bottom: 50px;
+  bottom: 30px;
   }
 
 .btn-3 {
@@ -585,8 +589,9 @@ color: white;
   /* Page 4 */
   .s4 {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     position: relative;
+    padding-bottom: 10rem;
   }
 
 .s4-text-container {
