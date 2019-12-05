@@ -132,12 +132,10 @@ body {
 }
 
 .s1 .home-image {
-
-  background-image: url("img/nyc.jpg");
   background: linear-gradient(
                      rgba(20,20,20, .7), 
                      rgba(20,20,20, .7)),
-                     url("/img/nyc.jpg");
+                     url("img/nyc.jpg");
   
   width: 100vw;
   height: 97vh;
