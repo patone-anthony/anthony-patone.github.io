@@ -118,7 +118,7 @@
     display: inline;
     text-align: right;
     margin-right: 2rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     }
 
     .social {
@@ -141,7 +141,7 @@
       text-decoration: none;
       margin: .3rem;
       display: block;
-      padding: 0 .3rem;
+      padding: 0 .4rem;
      }
 
      .s3-3 {
