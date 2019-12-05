@@ -625,7 +625,7 @@ color: white;
   .footer-container {
     position: absolute;
     width: 100vw;
-    height: 5vh;
+    height: 80px;
     bottom: 0;
     background: rgb(214, 214, 214);
     display: grid;
