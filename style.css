@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
 }
 
 .down i {
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
 }
 
@@ -150,7 +150,7 @@ body {
 
 
 .text-1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   height: 700px;
   color: white;
   transition-property: margin-top, font-size;
@@ -160,12 +160,14 @@ body {
 .text-1 h1 {
   text-align: center;
   margin-top: 100px;
+  margin-bottom: .5rem;
+  font-size: 3rem;
 }
 
 .s1 h6 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-align: center;
-margin-top: -15px;
+  margin-top: -15px;
 }
 
 .text-1 {
@@ -174,7 +176,7 @@ margin-top: -15px;
 
 
 .button-wrapper {
-  padding-top: 2rem;
+  padding-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -182,17 +184,17 @@ margin-top: -15px;
   background-color: rgba(4,	194,	201, 0.7);
   color: white;
   text-align: center;
-  height: 70px;
-  width: 220px;
+  height: 50px;
+  width: 200px;
   border-radius: 40px;
-  font-size: 1.2rem;
+  font-size: .9rem;
   line-height: 1.1rem;
   margin: auto;
   border: none;
 }
 
 .btn-1 span {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .btn-1:hover {
@@ -202,14 +204,14 @@ background: rgb(2, 116,	120, .9);
 
 /* Page 2 */
 .s2 {
-    width: auto;
-    height: 97vh;
+    width: 100vw;
+    height: auto;
   }
 
   #s2-1 {
     width: 100vw;
     height: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,20 +222,22 @@ background: rgb(2, 116,	120, .9);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: auto;
+  margin-bottom: 1rem;
 }
 
   #s2-1-1 {
-    width: 30%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
+    margin: 2rem;
+    margin-left: 4rem;
   }
 
 #s2-1-1 img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   background: #f5f5f5;
   transition-property: height, width;
@@ -241,8 +245,8 @@ background: rgb(2, 116,	120, .9);
 }
 
 #s2-1-1 img:hover {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
   background: #f5f5f5;
 }
@@ -250,8 +254,8 @@ background: rgb(2, 116,	120, .9);
 #s2-1-2 {
   width: 60%;
   display: block;
-  margin-right: 2rem;
-  padding-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -259,13 +263,14 @@ background: rgb(2, 116,	120, .9);
   color: #ff8c66;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  font-size: 1.5rem;
 }
 
   #s2-2 {
     width: 100vw;
     height: auto;
     background: #f7f6f6;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-right: 2rem;
   }
 
@@ -274,12 +279,14 @@ background: rgb(2, 116,	120, .9);
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 #s2-2-1 {
   margin-left: 8rem;
   margin-right: 6rem;
-  line-height: 2rem
+  line-height: 2rem;
+  font-size: 1rem;
 }
 
   #s2-2-2 {
@@ -298,7 +305,7 @@ background: rgb(2, 116,	120, .9);
 }
 
   .icons i {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
     color: #636363;
   }
@@ -306,15 +313,15 @@ background: rgb(2, 116,	120, .9);
   .icons h3 {
     color: var(--primary-color);
     text-align: center;
+    font-size: 1rem;
   }
 
   #percent {
     background: lightgray;
-    height: 30px;
+    height: 25px;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    margin-left: 1rem;
   }
 
   #percent p {
@@ -332,9 +339,10 @@ background: rgb(2, 116,	120, .9);
     color: #ff8c66;
     margin-bottom: .5rem;
     text-align: center;
-    font-size: 1.8rem;
     padding-top: 1.5rem;
+    font-size: 1.5rem;
   }
+
 
 .logos {
   display: grid;
@@ -348,12 +356,12 @@ background: rgb(2, 116,	120, .9);
 }
 
 .logos img {
-  height: 110px;
+  height: 90px;
   transition: height 1s ease;
 }
 
 .logos img:hover {
-  height: 130px;
+  height: 120px;
 }
 
   #python-percent {
@@ -397,8 +405,6 @@ background: rgb(2, 116,	120, .9);
   background: var(--primary-color);
   display: block;
   padding-top: 8rem;
-  position: relative;
-  padding-bottom: 12rem;
 }
 
 .s3-1 {
@@ -411,7 +417,7 @@ background: rgb(2, 116,	120, .9);
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgb(2, 155, 160);
@@ -419,14 +425,13 @@ background: rgb(2, 116,	120, .9);
 
 .s3 h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   flex: 0 1 100%;
 }
 
 .s3-1 p {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
   flex: 0 1 100%;
 }
 
@@ -439,13 +444,13 @@ background: rgb(2, 116,	120, .9);
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-top: 1rem;
   margin: auto;
+  margin-top: 1rem;
 }
 
 .card {
-  width: 550px;
-  height: 700px;
+  width: 350px;
+  height: 500px;
   background: white;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgb(90, 90, 90);
@@ -456,9 +461,14 @@ background: rgb(2, 116,	120, .9);
   margin-right: auto;
 }
 
+#car {
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
 .s3-2 .img-container {
-  height: 400px;
-  width: 550px;
+  height: 300px;
+  width: 350px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 1px 1px 3px rgb(90, 90, 90);
@@ -466,12 +476,12 @@ background: rgb(2, 116,	120, .9);
 }
 
 .s3-2 .text-description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 2rem;
 }
 
 .s3-2 .text-description p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .s3-2 img {
@@ -546,7 +556,7 @@ color: white;
   height: 50px;
   width: 270px;
   border-radius: 50px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.1rem;
   text-align: center;
   margin: 0;
@@ -555,22 +565,24 @@ color: white;
 
 .s3-3 {
   width: 100%;
-  height: 10%;
-  position: absolute;
-  bottom: 30px;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 4rem;
   }
 
 .btn-3 {
   color: white;
   background: var(--secondary-color);
-  height: 80px;
-  width: 450px;
+  height: 60px;
+  width: 300px;
   border-radius: 50px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.1rem;
   text-align: center;
   transition: .7s ease;
   box-shadow: 1px 1px 3px rgb(90, 90, 90);
+  margin-bottom: 3rem;
 }
 
 .btn-3:hover {
@@ -583,7 +595,6 @@ color: white;
     }
 
 
-
   /* Page 4 */
   .s4 {
     width: 100vw;
@@ -593,8 +604,8 @@ color: white;
   }
 
 .s4-text-container {
-  margin: 0 8rem;
-  padding-top: 8rem;
+  margin: 0 6rem;
+  padding-top: 6rem;
   padding-left: 2rem;
 }
 
