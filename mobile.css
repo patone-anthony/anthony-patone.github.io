@@ -119,6 +119,7 @@
     display: inline;
     text-align: right;
     margin-right: 2rem;
+    padding-right: 2rem;
     }
 
     .social {
@@ -135,7 +136,7 @@
      }
   
      .social li a {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: black;
       float: right;
       text-decoration: none;
