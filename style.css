@@ -497,7 +497,8 @@ body {
 }
 
 #dashboard,
-#blog {
+#blog,
+#wwtbam {
   width: 350px;
   height: 300px;
 }
@@ -758,6 +759,6 @@ input[type="submit"]:hover {
 }
 
 .rotate:hover a {
-  transform: rotate(720deg);
+  transform: rotate(360deg);
   transition: 1s;
 }
