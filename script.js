@@ -123,20 +123,6 @@ $(window).on("scroll", function () {
   if ($("#python-percent").is(":visible")) {
     $("#python-percent").animate(
       {
-        width: "60%",
-      },
-      1000,
-      function () {
-        // Animation complete.
-      }
-    );
-  }
-});
-
-$(window).on("scroll", function () {
-  if ($("#vba-percent").is(":visible")) {
-    $("#vba-percent").animate(
-      {
         width: "65%",
       },
       1000,
@@ -146,6 +132,8 @@ $(window).on("scroll", function () {
     );
   }
 });
+
+
 
 $(window).on("scroll", function () {
   if ($("#sql-percent").is(":visible")) {
@@ -165,7 +153,7 @@ $(window).on("scroll", function () {
   if ($("#html-percent").is(":visible")) {
     $("#html-percent").animate(
       {
-        width: "70%",
+        width: "50%",
       },
       1000,
       function () {
@@ -194,6 +182,20 @@ $(window).on("scroll", function () {
     $("#javascript-percent").animate(
       {
         width: "40%",
+      },
+      1000,
+      function () {
+        // Animation complete.
+      }
+    );
+  }
+});
+
+$(window).on("scroll", function () {
+  if ($("#java-percent").is(":visible")) {
+    $("#java-percent").animate(
+      {
+        width: "25%",
       },
       1000,
       function () {

@@ -68,6 +68,11 @@ body {
 .w-20 {
   width: 20%;
 }
+
+.w-25 {
+  width: 25%;
+}
+
 .w-40 {
   width: 40%;
 }
@@ -390,7 +395,7 @@ body {
   width: 0%;
   border-radius: 10px;
 }
-#vba-percent {
+#java-percent {
   background: var(--primary-color);
   height: 100%;
   width: 0%;
